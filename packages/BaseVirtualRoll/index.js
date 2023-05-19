@@ -1,9 +1,7 @@
-import VirtualRoll from './index.vue';
+import BaseVirtualRoll from './index.vue';
 
-const plugin = {
+export const VRoll = {
     install(Vue) {
-        Vue.component(VirtualRoll.name, VirtualRoll);
+        Vue.component(BaseVirtualRoll.name, BaseVirtualRoll);
     }
 }
-
-export default plugin;

@@ -1,5 +1,5 @@
 import BaseCustomForm from './index.vue';
 
-export const Button = (Vue) => {
+export const CustomForm = (Vue) => {
   Vue.component(BaseCustomForm.name, BaseCustomForm)
 }
