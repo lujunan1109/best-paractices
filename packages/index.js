@@ -1,6 +1,8 @@
 
 import { Button } from './BaseButton/index.js'
-import { Form } from './BaseCustomForm/index.js'
+import { CustomForm } from './BaseCustomForm/index.js'
+import { VRoll } from './BaseVirtualRoll/index.js'
+import { FileUpload } from './BaseBigFileUpload/index.js'
 
 // 全局组件导入
 const req = require.context('./', false, /\.vue$/)
@@ -12,7 +14,9 @@ const requireAll = (requireContext, Vue) =>
 
 // 按需引入
 export const BaseButton = Button
-export const BaseCustomForm = Form
+export const BaseCustomForm = CustomForm
+export const BaseVirtualRoll = VRoll
+export const BaseBigFileUpload = FileUpload
 
 /** 完整引入 */
 export const BestLibrary = (Vue) => {
