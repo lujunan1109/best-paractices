@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button class="btn">按钮</button>
+    <el-button class="btn" type="primary">按钮</el-button>
     <p>{{tip}}</p>
   </div>
 </template>
