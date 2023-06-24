@@ -1,16 +1,16 @@
 import Vue from 'vue'
 import App from './App.vue'
 import { BaseButton } from '../es'
-import { Button } from 'element-ui';
+import  ElButton  from 'element-ui/packages/button';
 // import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css';
+import 'element-ui/lib/theme-chalk/button.css';
 
 
 Vue.config.productionTip = false
 
 Vue.use(BaseButton)
 // Vue.use(ElementUI)
-Vue.use(Button);
+Vue.use(ElButton);
 // Vue.component(Button.name, Button);
 
 new Vue({

@@ -1,16 +1,12 @@
 {
   "presets": [
-    ["@babel/preset-env", { "modules": false }],
-    "@vue/cli-plugin-babel/preset"
+    "@vue/cli-plugin-babel/preset",
+    ["@babel/preset-env", { "modules": false }]
   ],
   "plugins": [
-    [
-      "component",
-      {
-        "libraryName": "element-ui",
-        "styleLibraryName": "theme-chalk"
-      }
-    ]
+    ["import", {
+      "libraryName": "element-ui",
+      "styleLibraryName": "theme-chalk"
+    }]
   ]
 }
-

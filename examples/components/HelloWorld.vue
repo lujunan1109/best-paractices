@@ -28,6 +28,8 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
     <BaseButton/>
+
+    <el-button type="primary">我是el-button</el-button>
   </div>
 </template>
 
@@ -36,6 +38,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  data() {
+    return {
+      ipt: '我爱你'
+    }
   }
 }
 </script>
